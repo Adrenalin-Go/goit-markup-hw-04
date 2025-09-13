@@ -292,9 +292,9 @@ img {
   list-style: none;
 }
 .team-socials-item:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
-.team-socials-item {
+.team-socials-item a {
   width: 40px;
   height: 40px;
   display: flex;
@@ -306,6 +306,7 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   transition: background-color 0.3s ease;
 }
+
 .team-socials-icon {
   display: block;
   fill: #fff;
