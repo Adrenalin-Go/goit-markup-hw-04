@@ -291,7 +291,8 @@ img {
   margin: 0;
   list-style: none;
 }
-.team-socials-item:hover {
+.team-socials-item:hover,
+.team-socials-item a:focus {
   background-color: #404bbf;
 }
 .team-socials-item a {
