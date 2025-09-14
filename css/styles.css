@@ -400,8 +400,6 @@ img {
 }
 .footer-page .container {
   display: flex;
-  align-items: baseline;
-
   align-items: flex-start;
   gap: 120px;
 }
@@ -456,17 +454,13 @@ img {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: var(--accent, #4d5ae5);
+  background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: #31d0aa;
-}
-.footer-socials-item {
-  width: 40px;
-  height: 40px;
 }
 
 .footer-icon {
