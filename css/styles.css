@@ -404,7 +404,6 @@ img {
 .footer-page .container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-socials {
@@ -434,8 +433,10 @@ img {
 
 .footer-socials-title {
   margin-bottom: 16px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
@@ -456,7 +457,9 @@ img {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* плавна зміна кольору */
 }
-.footer-socials-item,
+.footer-socials-item {
+  display: flex;
+}
 .footer-socials-link {
   display: flex;
   align-items: center;
@@ -465,7 +468,7 @@ img {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: background-color 0.3s ease;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link:hover,
