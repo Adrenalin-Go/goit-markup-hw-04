@@ -400,6 +400,7 @@ img {
 }
 .footer-page .container {
   display: flex;
+  align-items: baseline;
 
   align-items: flex-start;
   gap: 120px;
@@ -411,13 +412,14 @@ img {
 }
 .footer-info {
   text-align: left;
+  margin-right: 120px;
 }
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
 .footer-description {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -462,9 +464,11 @@ img {
 .footer-socials-link:focus {
   background-color: #31d0aa;
 }
-.footer-socials-item:hover {
-  background-color: #31d0aa;
+.footer-socials-item {
+  width: 40px;
+  height: 40px;
 }
+
 .footer-icon {
   display: block;
   width: 24px;
