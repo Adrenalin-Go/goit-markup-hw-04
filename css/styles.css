@@ -400,7 +400,7 @@ img {
 }
 .footer-page .container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 120px;
 }
 .footer-socials {
@@ -417,7 +417,7 @@ img {
   margin-bottom: 16px;
 }
 .footer-description {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
