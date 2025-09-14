@@ -448,6 +448,20 @@ img {
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
+.footer-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent, #4d5ae5);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: #31d0aa;
+}
 .footer-socials-item:hover {
   background-color: #31d0aa;
 }
@@ -455,5 +469,5 @@ img {
   display: block;
   width: 24px;
   height: 24px;
-  fill: #fff;
+  fill: var(--light, #f4f4fd);
 }
