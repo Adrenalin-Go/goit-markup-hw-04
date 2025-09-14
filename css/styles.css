@@ -308,10 +308,12 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+:root {
+  --icon-color: #f4f4fd;
+}
 .team-socials-icon {
   display: block;
-  fill: #fff;
+  fill: var(--icon-color);
 }
 /* -----------SECTIONS------ ( 4 )------ */
 
